@@ -1,24 +1,25 @@
 {
-  "name": "heroku-playwright-example",
+  "name": "font-crawler",
   "version": "1.0.0",
-  "description": "Example how you can use Playwright on Heroku",
   "scripts": {
-    "start": "node src/index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mxschmitt/heroku-playwright-example.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mxschmitt/heroku-playwright-example/issues"
-  },
-  "homepage": "https://github.com/mxschmitt/heroku-playwright-example#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "@types/is-url": "^1.2.32",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "is-url": "^1.2.4",
+    "next": "^14.2.1",
     "playwright-chromium": "^1.9.0",
-    "playwright-firefox": "^1.9.0"
+    "playwright-firefox": "^1.9.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "typescript": "^5"
   }
 }
